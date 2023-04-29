@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>You Travel</title>
 </head>
 <body>
@@ -32,15 +34,41 @@
     </header>
     <main>
         <section id="hero">
-            <h1>Travel Website</h1>
+            <p>Just Living Is Not Enought, One Must Have Sunshine</p>
         </section>
-        <section id="travel-tip">
+        <form>
+            <label for="destination">Destination:</label>
+            <select name="destination" id="places">
+                <option value="Indonesia">Indonesia</option>
+                <option value="Lake Toba">Lake Toba</option>
+                <option value="Tanjung Puting">Tanjung Puting</option>
+                <option value="Mount Bromo">Mount Bromo</option>
+                <option value="Baliem Valley">Baliem Valley</option>
+            </select>
+            <br>
+            <label for="travelers">Travelers:</label>
+            <select name="destination" id="places">
+                <option value="Indonesia">Solo Traveler</option>
+                <option value="Lake Toba">2 Traveler</option>
+                <option value="Tanjung Puting">3 Traveler</option>
+                <option value="Mount Bromo">4 Traveler</option>
+                <option value="Baliem Valley">5 Traveler</option>
+            </select>
+            <br>
+            <label for="date">Check-in Date:</label>
+            <input type="date" id="date" name="date"><br>
+            <label for="date">Check-out Date:</label>
+            <input type="date" id="date" name="date">
+            <button>Submit</button>
+        </form>
+        <section>
             <h2>Travel Tip</h2>
         </section>
         <section id="gallery"></section>
         <section id="exciting-trip"></section>
         <setion id="share-your-story"></setion>
         <setion id="final-word"></setion>
+        
     </main>
     <footer></footer>
 </body>
