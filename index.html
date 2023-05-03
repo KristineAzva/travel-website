@@ -3,14 +3,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>You Travel</title>
 </head>
 <body>
     <header class="container">
         <div class="row">
-            <h3>YouTravel</h3>
+            <h3 id="travel"><span id="you">You</span>Travel</h3>
         </div>
         <nav>
             <ul class="menu">
@@ -28,48 +29,121 @@
                 <li>
                     <a id="item-stories">Stories</a>
                 </li>
-                
             </ul>
         </nav>
     </header>
+    <!-- MAIN -->
     <main>
-        <section id="hero">
-            <p>Just Living Is Not Enought, One Must Have Sunshine</p>
+        <section class="container hero">
+            <div class="row"> 
+                <div id="intro">
+                    <p>Wonderful Indonesia</p>
+                    <h2>Just Living Is Not Enought, One Must Have Sunshine</h2>
+                </div>
+                <div id="search-input">
+                    <div class="search-bar">
+                        <label for="destination" placeholder>Destination:</label>
+                        <br>
+                        <select name="destination" id="places">
+                            <option value="All Destination">All Destination</option>
+                        </select>
+                    </div>
+                    <div class="search-bar">
+                        <label for="travelers">Travelers:</label>
+                        <br>
+                        <input type="text" placeholder="Number of Traveler">
+                    </div>
+                    <div class="search-bar">
+                        <label for="date">Check-in Date:</label>
+                    </div>
+                    <div id="arrow-button">
+                        <img id="arrow-icon" src="arrow-right-line.png" alt="arrow-icon">
+                    </div>    
         </section>
-        <form>
-            <label for="destination">Destination:</label>
-            <select name="destination" id="places">
-                <option value="Indonesia">Indonesia</option>
-                <option value="Lake Toba">Lake Toba</option>
-                <option value="Tanjung Puting">Tanjung Puting</option>
-                <option value="Mount Bromo">Mount Bromo</option>
-                <option value="Baliem Valley">Baliem Valley</option>
-            </select>
-            <br>
-            <label for="travelers">Travelers:</label>
-            <select name="destination" id="places">
-                <option value="Indonesia">Solo Traveler</option>
-                <option value="Lake Toba">2 Traveler</option>
-                <option value="Tanjung Puting">3 Traveler</option>
-                <option value="Mount Bromo">4 Traveler</option>
-                <option value="Baliem Valley">5 Traveler</option>
-            </select>
-            <br>
-            <label for="date">Check-in Date:</label>
-            <input type="date" id="date" name="date"><br>
-            <label for="date">Check-out Date:</label>
-            <input type="date" id="date" name="date">
-            <button>Submit</button>
-        </form>
+        <section class="container travel-tip">
+            <div class="travel">
+                <div class="col">
+                    <p id="hashtag">#TRAVELTIP</p>
+                    <h3>How to explore bunaken in 2 days?</h3>
+                    <p>Bunaken is an island of 8.08 kmÂ² in the Bay of Manado, which is located north of the island of Sulawesi, Indonesia. This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE.
+                        This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE.
+                    </p>
+                    <button id="read-more">READ MORE</button>
+                 </div>
+                <div class="col">
+                <img id="image" src="https://th.bing.com/th/id/R.90e798bc5d66c9fbc14abb198697bc40?rik=diKW%2b0LCaU5%2b7g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-AgBukHY-Awk%2fTdYikwfx2jI%2fAAAAAAAAACo%2fv0ftIsGNMRk%2fs1600%2fbunaken.jpg&ehk=3zkE5Be6vVoCkuQfj7uw%2bDLIqG3H%2bUc0wYcxF6qZiBA%3d&risl=&pid=ImgRaw&r=0" alt="bunaken island">
+                </div>
+            <div>
+        </section>
         <section>
-            <h2>Travel Tip</h2>
+            <div class="gallery">
+                <div class="col" id="garden">
+                    <p class="caption">Garden</p>
+                </div>
+                <div  class="col" id="water-falls">
+                    <p class="caption">Water Falls</p>
+                    <button id="button">READ MORE</button>
+                </div>
+                <div  class="col" id="water-falls">
+                    <p class="caption">Water Falls</p>
+                </div>
+                <div  class="col" id="water-falls">
+                    <p class="caption">Water Falls</p>
+                </div>
+            </div>
         </section>
-        <section id="gallery"></section>
-        <section id="exciting-trip"></section>
-        <setion id="share-your-story"></setion>
-        <setion id="final-word"></setion>
-        
+        <section id="exciting-trip">
+            <div>
+                <img src="bali island.jpeg" alt="bali island picture">
+            </div>
+        </section>
+        <setion id="share-your-story">
+            <div class="story">
+                <h2>Share Your Story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a aliquid cum nisi voluptatem cumque.</p>
+            </div>
+            <div class="bali-image">
+                <img src="baliStory.png" alt="image of bali">
+            </div>
+        </setion>
+        <setion id="final-word">
+            <div>
+                <div class="word">
+                    <h2>What The Final Word</h2>
+                </div>
+                <div class="finalword_pic">
+                    <img src="final_word_pic.jpg" alt="bali image">
+                </div>
+                <div class="visitor">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati cumque sunt porro? Saepe ipsam porro ea ratione quibusdam error!</p>
+                    <br>
+                    <p>Emil Jonson</p>
+                    <p>Visitor</p>
+                </div>
+            </div>
+        </setion>
     </main>
-    <footer></footer>
+    <footer class="container">
+        <div class="copyright">
+            <h3><span>Copyright IndoTravel 2020</span></h3>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a id="item-home">
+                        <strong>Home</strong>
+                    </a>
+                </li>
+                <li>
+                    <a id="item-travel-planner">Travel Planner</a>
+                </li>
+                <li>
+                    <a id="item-blogs">Blogs</a>
+                </li>
+                <li>
+                    <a id="item-stories">Stories</a>
+                </li>
+            </ul>
+    </footer>
 </body>
 </html>
