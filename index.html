@@ -3,116 +3,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>You Travel</title>
 </head>
 <body>
     <header class="container">
         <div class="row">
-            <h3 id="travel"><span id="you">You</span>Travel</h3>
+            <div class="col-6">
+                <h3 id="travel"><span id="you">You</span>Travel</h3>
+            </div>
+            <div class="col-6">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a id="item-home">
+                                <strong>Home</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="item-travel-planner">Travel Planner</a>
+                        </li>
+                        <li>
+                            <a id="item-blogs">Blogs</a>
+                        </li>
+                        <li>
+                            <a id="item-stories">Stories</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a id="item-home">
-                        <strong>Home</strong>
-                    </a>
-                </li>
-                <li>
-                    <a id="item-travel-planner">Travel Planner</a>
-                </li>
-                <li>
-                    <a id="item-blogs">Blogs</a>
-                </li>
-                <li>
-                    <a id="item-stories">Stories</a>
-                </li>
-            </ul>
-        </nav>
     </header>
     <!-- MAIN -->
     <main>
         <section class="container hero">
             <div class="row"> 
-                <div id="intro">
+                <div class="col" id="intro">
                     <p>Wonderful Indonesia</p>
                     <h2>Just Living Is Not Enought, One Must Have Sunshine</h2>
                 </div>
-                <div id="search-input">
-                    <div class="search-bar">
-                        <label for="destination" placeholder>Destination:</label>
-                        <br>
-                        <select name="destination" id="places">
-                            <option value="All Destination">All Destination</option>
-                        </select>
+            </div>
+            <div class="row">
+                <div class="col" id="search-input">
+                    <div class="row">
+                        <div class="col-4">
+                            <label for="destination" placeholder>Destination:</label>
+                            <br>
+                            <select name="destination" id="places">
+                                <option value="All Destination">All Destination</option>
+                            </select>
+                        </div>
+                        <div class="col-3">
+                            <label for="travelers">Travelers:</label>
+                            <br>
+                            <input type="text" placeholder="Number of Traveler">
+                        </div>
+                        <div class="col-3">
+                            <label for="date"> Check-in </label><label for="date"> / Check-out</label>
+                            <br>
+                            <input type="date"> <input type="date">
+                        </div>
+                        <div class="col-2" id="arrow-button">
+                            <img id="arrow-icon" src="arrow-right-line.png" alt="arrow-icon">
+                        </div>   
                     </div>
-                    <div class="search-bar">
-                        <label for="travelers">Travelers:</label>
-                        <br>
-                        <input type="text" placeholder="Number of Traveler">
-                    </div>
-                    <div class="search-bar">
-                        <label for="date">Check-in Date:</label>
-                    </div>
-                    <div id="arrow-button">
-                        <img id="arrow-icon" src="arrow-right-line.png" alt="arrow-icon">
-                    </div>    
+                </div>
+            </div>
         </section>
         <section class="container travel-tip">
-            <div class="travel">
-                <div class="col">
-                    <p id="hashtag">#TRAVELTIP</p>
-                    <h3>How to explore bunaken in 2 days?</h3>
-                    <p>Bunaken is an island of 8.08 kmÂ² in the Bay of Manado, which is located north of the island of Sulawesi, Indonesia. This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE.
-                        This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE.
-                    </p>
+            <div class="row">
+                <div class="col-6">
+                    <h5>#TRAVELTIP</h5>
+                    <h2>How to explore bunaken in 2 days?</h2>
+                    <article>Bunaken is an island of 8.08 kmÂ² in the Bay of Manado, which is located north of the island of Sulawesi, Indonesia. This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE. This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE.</article>
+                    <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dolore sit omnis illum delectus excepturi minus deleniti nisi natus ullam!</article>
                     <button id="read-more">READ MORE</button>
                  </div>
+                <div class="col-6">
+                    <img id="image" src="https://th.bing.com/th/id/R.90e798bc5d66c9fbc14abb198697bc40?rik=diKW%2b0LCaU5%2b7g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-AgBukHY-Awk%2fTdYikwfx2jI%2fAAAAAAAAACo%2fv0ftIsGNMRk%2fs1600%2fbunaken.jpg&ehk=3zkE5Be6vVoCkuQfj7uw%2bDLIqG3H%2bUc0wYcxF6qZiBA%3d&risl=&pid=ImgRaw&r=0" width="100%" height="100%" alt="bunaken island">
+                </div>
+            <div>
+        </section>
+        <section class="container" >
+            <div class="row gap-30">
+                <div class="col-3" >
+                    <div class="gallery-card">
+                        <p class="caption">Garden</p>
+                    </div>
+                </div>
+                <div  class="col-3" >
+                    <div class="gallery-card">
+                        <p class="caption">Water Falls</p>
+                        <button id="button">READ MORE</button>
+                    </div>
+                </div>
+                <div  class="col-3" >
+                    <div class="gallery-card">
+                        <p class="caption">Water Falls</p>
+                    </div>
+                </div>
+                <div  class="col-3 " >
+                    <div class="gallery-card">
+                        <p class="caption">Water Falls</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="exciting-trip">
+            <div class="row">
                 <div class="col">
-                <img id="image" src="https://th.bing.com/th/id/R.90e798bc5d66c9fbc14abb198697bc40?rik=diKW%2b0LCaU5%2b7g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-AgBukHY-Awk%2fTdYikwfx2jI%2fAAAAAAAAACo%2fv0ftIsGNMRk%2fs1600%2fbunaken.jpg&ehk=3zkE5Be6vVoCkuQfj7uw%2bDLIqG3H%2bUc0wYcxF6qZiBA%3d&risl=&pid=ImgRaw&r=0" alt="bunaken island">
-                </div>
-            <div>
-        </section>
-        <section>
-            <div class="gallery">
-                <div class="col" id="garden">
-                    <p class="caption">Garden</p>
-                </div>
-                <div  class="col" id="water-falls">
-                    <p class="caption">Water Falls</p>
-                    <button id="button">READ MORE</button>
-                </div>
-                <div  class="col" id="water-falls">
-                    <p class="caption">Water Falls</p>
-                </div>
-                <div  class="col" id="water-falls">
-                    <p class="caption">Water Falls</p>
+                    <h2 id="trip">Enjoy an Exciting your trip</h2>
+                    <img src="./assets/img/bali island.jpeg" alt="bali island picture">
                 </div>
             </div>
         </section>
-        <section id="exciting-trip">
-            <div>
-                <img src="bali island.jpeg" alt="bali island picture">
-            </div>
-        </section>
-        <setion id="share-your-story">
-            <div class="story">
+        <setion class="container" id="share-your-story">
+            <div class="row">
+                
                 <h2>Share Your Story</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a aliquid cum nisi voluptatem cumque.</p>
+                <div class="col">
+                    <img src="./assets/img/baliStory.png" alt="image of bali">
+                </div>
             </div>
-            <div class="bali-image">
-                <img src="baliStory.png" alt="image of bali">
+            <div class="col">
+                <img src="./assets/img/baliStory.png" alt="image of bali">
             </div>
         </setion>
-        <setion id="final-word">
+        <setion class="container" id="final-word">
             <div>
                 <div class="word">
                     <h2>What The Final Word</h2>
                 </div>
                 <div class="finalword_pic">
-                    <img src="final_word_pic.jpg" alt="bali image">
+                    <img src="./assets/img/final_word_pic.jpg" alt="bali image">
                 </div>
                 <div class="visitor">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati cumque sunt porro? Saepe ipsam porro ea ratione quibusdam error!</p>
