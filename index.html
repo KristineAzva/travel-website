@@ -12,35 +12,37 @@
     <header class="container">
         <div class="row">
             <div class="col-6">
-                <h3 id="travel"><span id="you">Your</span>Travel</h3>
+                <h3 id="travel"><span id="your">Your</span>Travel</h3>
             </div>
             <div class="col-6">
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <a id="item-home">
-                                <strong>Home</strong>
-                            </a>
-                        </li>
-                        <li>
-                            <a id="item-travel-planner">Travel Planner</a>
-                        </li>
-                        <li>
-                            <a id="item-blogs">Blogs</a>
-                        </li>
-                        <li>
-                            <a id="item-stories">Stories</a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="menu-nav">
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a id="item-home">
+                                    <strong>Home</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="item-travel-planner">Travel Planner</a>
+                            </li>
+                            <li>
+                                <a id="item-blogs">Blogs</a>
+                            </li>
+                            <li>
+                                <a id="item-stories">Stories</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
     <!-- MAIN -->
     <main>
-        <section class="container hero">
+        <section class="container">
             <div class="row"> 
-                <div class="col" id="intro">
+                <div class="col" id="wonderful">
                     <p>Wonderful Indonesia</p>
                     <h2>Just Living Is Not Enought, One Must Have Sunshine</h2>
                 </div>
@@ -73,7 +75,7 @@
             </div>
         </section>
         <section class="container travel-tip">
-            <div class="row">
+            <div class="row" id="travel-tip">
                 <div class="col-6">
                     <h5>#TRAVELTIP</h5>
                     <h2>How to explore bunaken in 2 days?</h2>
@@ -86,7 +88,7 @@
                 </div>
             <div>
         </section>
-        <section class="container" >
+        <section class="container" id="gallery-trip" >
             <div class="row">
                 <div class="col">
                     <div id="gallery-cards">
@@ -98,17 +100,17 @@
                         <div>
                             <div class="gallery-card">
                                 <p class="caption">Water Falls</p>
-                                <button id="button">READ MORETEST</button>
+                                <button id="button">READ MORE</button>
                             </div>
                         </div>
                         <div>
                             <div class="gallery-card">
-                                <p class="caption">Water Falls</p>
+                                <p class="caption">Mountain</p>
                             </div>
                         </div>
                         <div>
                             <div class="gallery-card">
-                                <p class="caption">Water Falls</p>
+                                <p class="caption">Beach</p>
                             </div>
                         </div>
                     </div>
@@ -117,9 +119,19 @@
         </section>
         <section class="container" id="exciting-trip">
             <div class="row">
-                <div class="col">
-                    <h2 id="trip">Enjoy an Exciting your trip</h2>
-                    <img src="./assets/img/bali island.jpeg" alt="bali island picture">
+                <div class="col-6">
+                    <h2 id="trip">Enjoy an Exciting Trip with IndoTravel</h2>
+                </div>
+                <div class="col-6"  >
+                    <div id="exciting-trip-button-wrapper">
+                        <button id="view-button ">VIEW ALL</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col" id="exciting-trip-img">
+                    <img src="./assets/img/bali island.jpeg" width="90%" height="70%" alt="bali island picture">
                 </div>
             </div>
         </section>
@@ -129,20 +141,17 @@
                     <h2>Share Your Story</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a aliquid cum nisi voluptatem cumque.</p>
                 <div class="col">
-                    <img src="./assets/img/baliStory.png" alt="image of bali">
+                    <img src="./assets/img/baliStory.png"  alt="image of bali">
                 </div>
             </div>
-            <div class="col">
-                <img src="./assets/img/baliStory.png" alt="image of bali">
-            </div>
         </setion>
-        <setion class="container" id="final-word">
+        <setion class="container" id="testimony">
             <div class="row">
                 <div class="col">
                     <h2>What The Final Word</h2>
                 </div>
                 <div class="col">
-                    <img src="./assets/img/final_word_pic.jpg" alt="bali image">
+                    <img src="./assets/img/final_word_pic.jpg" width="20%" height="100%" alt="bali image">
                 </div>
                 <div class="col">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati cumque sunt porro? Saepe ipsam porro ea ratione quibusdam error!</p>
@@ -153,7 +162,7 @@
             </div>
         </setion>
     </main>
-    <footer class="container">
+    <footer class="container-footer">
         <div class="row">
             <div class="col-6">
                 <h3 id="travel"><span id="you">You</span>Travel</h3>

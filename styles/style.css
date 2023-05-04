@@ -2,17 +2,12 @@
 
 body {
     font-family: 'Work-sans', sans-serif; 
-    position: relative; 
+    font-size: 16px;
 }
-
 .container {
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
-}
-.hero { 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.7) 100%);
-
 }
 .row {
     display:flex;
@@ -54,6 +49,16 @@ body {
 .col-11 {
     width: calc(11 / 12 * 100%);
 }
+span { 
+    color: #FF9900;
+}
+.menu-nav {
+    display: flex;
+    justify-content: right;
+}
+.hero { 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
 ul {
     list-style-type: none;
     display: flex;
@@ -66,6 +71,13 @@ h2 {
     font-size: 60px;
     padding-top: 10%;
 }
+#wonderful {
+    background-color: #FF9900;
+    margin-top: 40px;
+}
+#travel-tip {
+    margin-top: 100px;
+}
 article {
     padding-top: 20%;
     padding-bottom: 6.2%;
@@ -76,26 +88,26 @@ article {
     position: relative;
     max-width: 500px;
     min-height: 200px;
-
 }
 button {
     background-color:  rgb(248, 165, 64);
     border-color:  rgb(248, 165, 64);
+    color: white;
 }
-/* img { 
-    width: 568px;
-    height: 677px;
-} */
 .travel-tip {  
     width: 1168px;
     height: 677px;
-    border: 1px solid black;
+    
     position:relative; 
 }
 #read-more { 
     width: 170px; 
     height: 64px;
 
+}
+#gallery-trip {
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
 #hashtag { 
     color: #FF9900;
@@ -111,7 +123,6 @@ button {
 .gallery-card {
     background-color: black;
     text-align: center;
-    color: aliceblue;
     height: 270px;
 }
 .p-30 {
@@ -130,18 +141,30 @@ button {
 .gap-30   {
     gap: 30px;
 } 
-
+.caption {
+    color: white;
+    padding: 35%;
+}
 #button { 
     background-color:  rgb(248, 165, 64);
     color: white;
-    margin: 0;
     border-color:  rgb(248, 165, 64);
-    padding: 24px 48px;
+    padding: 14px 30px ; 
     position: absolute;
-    bottom:-32px;
-    left: 50px;
+    margin-top: 45px;
+    margin-left: -60px;
+} 
+#exciting-trip h2 {
+    font-size: 60px;
+    color: black;
 }
 
-@media (min-width: 667px) {
-
+#exciting-trip-button-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 160px;
+    height: 40px;
+}
+#exciting-trip-img {
+    margin-top: 80px;
 }
