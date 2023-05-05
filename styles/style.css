@@ -59,7 +59,7 @@ span {
 .hero { 
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.7) 100%);
 }
-ul {
+.menu {
     list-style-type: none;
     display: flex;
     gap: 5px;
@@ -167,4 +167,44 @@ button {
 }
 #exciting-trip-img {
     margin-top: 80px;
+}
+.content { 
+    text-align: center;
+}
+#story h2 { 
+    margin-bottom: 30px;
+}
+#active-user {
+    border: 1px solid black; 
+}
+.active-user-wrapper { 
+    margin: 0 auto;
+
+}
+#user-profile { 
+    border-radius: 5px;
+    width: 140px;
+    height: 120px;
+}
+#arrow-button { 
+    background-color: #FF9900;
+    display: flex;
+    justify-content: center;
+}
+#search-input { 
+    background-color: white;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    max-height: 180px;
+}
+#arrow-icon { 
+    width: 48px;
+    height: 48px;
+}
+footer { 
+    background-color: #444444;
+    color: white;
+}
+#final-word { 
+    font-size: 3rem;
 }
