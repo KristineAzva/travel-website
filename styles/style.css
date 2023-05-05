@@ -3,6 +3,9 @@
 body {
     font-family: 'Work-sans', sans-serif; 
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #666;
 }
 .container {
     max-width: 1170px;
@@ -210,4 +213,16 @@ footer {
 }
 #final-word { 
     font-size: 3rem;
+}
+#item-home { 
+    font-weight: 700;
+    color:#000;
+}
+#brand { 
+    font-size: 20px;
+    font-weight: 700;
+}
+#pagination { 
+    display: flex;
+    justify-content: space-between;
 }
