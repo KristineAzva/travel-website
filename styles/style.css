@@ -182,9 +182,9 @@ button {
 
 }
 #user-profile { 
-    border-radius: 5px;
-    width: 140px;
-    height: 120px;
+    width: 1200px;
+    height: 800px;
+    margin-bottom: 80px;
 }
 #arrow-button { 
     background-color: #FF9900;
@@ -245,4 +245,17 @@ h2 {
 }
 #intro { 
     color: #FFF;
+}
+.copyright-footer {
+    padding: 35px;
+}
+.youtravel-header {
+    padding: 35px;
+}
+.content-visitor {
+    padding-left: 50px;
+    font-size: 20px;
+}
+#final-word-section {
+    margin-bottom: 200px;
 }

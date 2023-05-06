@@ -1,222 +1,288 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>You Travel</title>
-</head>
-<body>
-    <header class="container">
-        <div class="row">
-            <div class="col-6" id="brand">
-                <p id="travel"><span id="your">Your</span>Travel</p>
-            </div>
-            <div class="col-6">
-                <div class="menu-nav">
-                        <nav>
-                            <ul class="menu gap-30">
-                                <li>
-                                    <a id="item-home">Home
-                                    </a>
-                                </li>
-                                <li>
-                                    <a id="item-travel-planner">Travel Planner</a>
-                                </li>
-                                <li>
-                                    <a id="item-blogs">Blogs</a>
-                                </li>
-                                <li>
-                                    <a id="item-stories">Stories</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- MAIN -->
-    <main>
-        <section class="container">
-            <div class="row" id="pagination"> 
-                <div class="col-10" id="hero-heading">
-                    <p id="wonderful">Wonderful Indonesia</p>
-                    <h2 id="intro">Just Living Is Not Enought, One Must Have Sunshine</h2>
-                </div>
-                <div class="col-2" id="value-pagination">
-                    <div>
-                        <h2 id="value-item1">01/04</h2>
-                    </div>
-                    <div>
-                        <img id="value-item2"src="assets/img/PAGINATION.png" alt="pagination">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col" id="search-input">
-                    <div class="row">
-                        <div class="col-4">
-                            <label for="destination" placeholder>Destination:</label>
-                            <br>
-                            <select name="destination" id="places">
-                                <option value="All Destination">All Destination</option>
-                            </select>
-                        </div>
-                        <div class="col-3">
-                            <label for="travelers">Travelers:</label>
-                            <br>
-                            <input type="text" placeholder="Number of Traveler">
-                        </div>
-                        <div class="col-3">
-                            <label for="date"> Check-in </label><label for="date"> / Check-out</label>
-                            <br>
-                            <input type="date"> <input type="date">
-                        </div>
-                        <div class="col-2" id="arrow-button">
-                            <img id="arrow-icon" src="assets/img/arrow-right-line.png" alt="arrow-icon">
-                        </div>   
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container travel-tip">
-            <div class="row" id="travel-tip">
-                <div class="col-6 tip-content">
-                    <p>#TRAVELTIP</p>
-                    <h2>How to explore bunaken in 2 days?</h2>
-                    <p>+1k view</p>
-                    <article>Bunaken is an island of 8.08 kmÂ² in the Bay of Manado, which is located north of the island of Sulawesi, Indonesia. This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE. This island is part of the city of Manado, the capital of the province of North Sulawesi, Indonesia. Bunaken Island can be tE.</article>
-                    <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dolore sit omnis illum delectus excepturi minus deleniti nisi natus ullam!</article>
-                    <button id="read-more">READ MORE</button>
-                 </div>
-                <div class="col-6">
-                    <img id="image" src="https://th.bing.com/th/id/R.90e798bc5d66c9fbc14abb198697bc40?rik=diKW%2b0LCaU5%2b7g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-AgBukHY-Awk%2fTdYikwfx2jI%2fAAAAAAAAACo%2fv0ftIsGNMRk%2fs1600%2fbunaken.jpg&ehk=3zkE5Be6vVoCkuQfj7uw%2bDLIqG3H%2bUc0wYcxF6qZiBA%3d&risl=&pid=ImgRaw&r=0" width="100%" height="100%" alt="bunaken island">
-                </div>
-            <div>
-        </section>
-        <section class="container" id="gallery-trip" >
-            <div class="row">
-                <div class="col">
-                    <div id="gallery-cards">
-                        <div>
-                            <div class="gallery-card">
-                                    <p class="caption">Garden</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="gallery-card" id="water-fall">
-                                <p class="caption">Water Falls</p>
-                                <button id="button">READ MORE</button>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="gallery-card" id="mountain">
-                                <p class="caption">Mountain</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="gallery-card" id="beach">
-                                <p class="caption">Beach</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="exciting-trip">
-            <div class="row">
-                <div class="col-6">
-                    <h2 id="trip">Enjoy an Exciting Trip with IndoTravel</h2>
-                </div>
-                <div class="col-6"  >
-                    <div id="exciting-trip-button-wrapper">
-                        <button id="view-button ">VIEW ALL</button>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="row" >
-                <div class="col" id="exciting-trip-img">
-                    <img src="./assets/img/bali island.jpeg" width="90%" height="70%" alt="bali island picture">
-                </div>
-            </div>
-        </section>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- ATE CLYDE -->
-        <section id="story">
-            <div class="container">
-                <div class="row">
-                    <div class="col content">
-                        <h2>Share your story</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</p>
-                    </div>
-                    <div class="row active-user-wrapper">
-                        <div class="col">
-                                <div>
-                                    <img id="user-profile" src="assets/img/beach photo.jfif" alt="img-1">
-                                </div>
-                                <div class="content">
-                                    <h3 id="name">Elisabeth T</h3>
-                                    <p id="location">South Kalimantan</p>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="testimony">
-            <div class="row">
-                <div class="col-4">
-                    <h2>What The Final Word</h2>
-                </div>
-                <div class="col-4">
-                    <img src="./assets/img/final_word_pic.jpg" width="100%" height="100%" alt="bali image">
-                </div>
-                <div class="col-4">
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum obcaecati cumque sunt porro? Saepe ipsam porro ea ratione quibusdam error!</p>
-                    </div>
-                    <div>
-                        <p>Emil Jonson</p>
-                        <p>Visitor</p></div>
-                    
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="container">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>You Travel</title>
+  </head>
+  <body>
+    <header class="youtravel-header">
+      <div class="container">
         <div class="row">
-            <div class="col-6">
-                <p>Copyright IndoTravel 2020</p>
+          <div class="col-6" id="brand">
+            <p id="travel"><span id="your">Your</span>Travel</p>
+          </div>
+          <div class="col-6">
+            <div class="menu-nav">
+              <nav>
+                <ul class="menu gap-30">
+                  <li>
+                    <a id="item-home">Home </a>
+                  </li>
+                  <li>
+                    <a id="item-travel-planner">Travel Planner</a>
+                  </li>
+                  <li>
+                    <a id="item-blogs">Blogs</a>
+                  </li>
+                  <li>
+                    <a id="item-stories">Stories</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <div class="col-6">
-                <div class="menu-nav">
-                    <nav>
-                        <ul class="menu">
-                            <li>
-                                <a id="item-home">
-                                    <strong>Home</strong>
-                                </a>
-                            </li>
-                            <li>
-                                <a id="item-travel-planner">Travel Planner</a>
-                            </li>
-                            <li>
-                                <a id="item-blogs">Blogs</a>
-                            </li>
-                            <li>
-                                <a id="item-stories">Stories</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+          </div>
         </div>
-        </footer>
-</body>
+      </div>
+    </header>
+    <main>
+      <section id="hero-section">
+        <div class="container">
+          <div class="row" id="pagination">
+            <div class="col-10" id="hero-heading">
+              <p id="wonderful">Wonderful Indonesia</p>
+              <h2 id="intro">
+                Just Living Is Not Enought, One Must Have Sunshine
+              </h2>
+            </div>
+            <div class="col-2" id="value-pagination">
+              <div>
+                <h2 id="value-item1">01/04</h2>
+              </div>
+              <div>
+                <img
+                  id="value-item2"
+                  src="./assets/img/pagnition.png"
+                  alt="pagination"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" id="search-input">
+              <div class="row">
+                <div class="col-4">
+                  <label for="destination" placeholder>Destination:</label>
+                  <br />
+                  <select name="destination" id="places">
+                    <option value="All Destination">All Destination</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <label for="travelers">Travelers:</label>
+                  <br />
+                  <input type="text" placeholder="Number of Traveler" />
+                </div>
+                <div class="col-3">
+                  <label for="date"> Check-in </label
+                  ><label for="date"> / Check-out</label>
+                  <br />
+                  <input type="date" /> <input type="date" />
+                </div>
+                <div class="col-2" id="arrow-button">
+                  <img
+                    id="arrow-icon"
+                    src="assets/img/arrow-right-line.png"
+                    alt="arrow-icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 2nd section -->
+      <section id="travel-tip-section">
+        <div class="container travel-tip">
+          <div class="row" id="travel-tip">
+            <div class="col-6 tip-content">
+              <p>#TRAVELTIP</p>
+              <h2>How to explore bunaken in 2 days?</h2>
+              <p>+1k view</p>
+              <article>
+                Bunaken is an island of 8.08 kmÂ² in the Bay of Manado, which is
+                located north of the island of Sulawesi, Indonesia. This island
+                is part of the city of Manado, the capital of the province of
+                North Sulawesi, Indonesia. Bunaken Island can be tE. This island
+                is part of the city of Manado, the capital of the province of
+                North Sulawesi, Indonesia. Bunaken Island can be tE.
+              </article>
+              <article>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Tempore dolore sit omnis illum delectus excepturi minus deleniti
+                nisi natus ullam!
+              </article>
+              <button id="read-more">READ MORE</button>
+            </div>
+            <div class="col-6">
+              <img
+                id="image"
+                src="https://th.bing.com/th/id/R.90e798bc5d66c9fbc14abb198697bc40?rik=diKW%2b0LCaU5%2b7g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-AgBukHY-Awk%2fTdYikwfx2jI%2fAAAAAAAAACo%2fv0ftIsGNMRk%2fs1600%2fbunaken.jpg&ehk=3zkE5Be6vVoCkuQfj7uw%2bDLIqG3H%2bUc0wYcxF6qZiBA%3d&risl=&pid=ImgRaw&r=0"
+                width="100%"
+                height="100%"
+                alt="bunaken island"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 3rd section -->
+      <section id="gallery-trip-section">
+        <div class="container" id="gallery-trip">
+          <div class="row">
+            <div class="col">
+              <div id="gallery-cards">
+                <div>
+                  <div class="gallery-card">
+                    <p class="caption">Garden</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="gallery-card" id="water-fall">
+                    <p class="caption">Water Falls</p>
+                    <button id="button">READ MORE</button>
+                  </div>
+                </div>
+                <div>
+                  <div class="gallery-card" id="mountain">
+                    <p class="caption">Mountain</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="gallery-card" id="beach">
+                    <p class="caption">Beach</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 4th section -->
+      <section id="exciting-trip-section">
+        <div class="container" id="exciting-trip">
+          <div class="row">
+            <div class="col-6">
+              <h2 id="trip">Enjoy an Exciting Trip with IndoTravel</h2>
+            </div>
+            <div class="col-6">
+              <div id="exciting-trip-button-wrapper">
+                <button id="view-button ">VIEW ALL</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" id="exciting-trip-img">
+              <img
+                src="./assets/img/bali-island.jpg"
+                width="90%"
+                height="70%"
+                alt="bali island picture"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 5th section -->
+      <section id="story">
+        <div class="container">
+          <div class="row">
+            <div class="col content">
+              <h2>Share your story</h2>
+              <p id>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                dolorem quisquam eos quo cupiditate, aut molestias. Doloremque
+                voluptatum eum aut delectus quos fuga sint eius dolore? Minus
+                quod laborum officiis?
+              </p>
+            </div>
+            <div class="row active-user-wrapper">
+              <div class="col">
+                <div>
+                  <img
+                    id="user-profile"
+                    src="./assets/img/bali-story.jpg"
+                    alt="img-1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 6th section -->
+      <section id="final-word-section">
+        <div class="container" id="testimony">
+          <div class="row">
+            <div class="col-5">
+              <h2>What The Final Word</h2>
+            </div>
+            <div class="col-3">
+              <img
+                src="./assets/img/final-word-pic.jpg"
+                width="100%"
+                height="100%"
+                alt="bali image"
+              />
+            </div>
+            <div class="col-4">
+              <div class="content-visitor">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
+                  quae ipsum voluptate. Culpa necessitatibus quam repellat omnis
+                  totam sed. Recusandae corporis eveniet rerum quas at numquam
+                  veniam obcaecati unde, libero natus dolorum quibusdam
+                  exercitationem aut autem possimus distinctio iusto velit.
+                </p>
+                <br />
+                <p>Emil Jonson</p>
+                <p>Visitor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="copyright-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <p>Copyright IndoTravel 2020</p>
+          </div>
+          <div class="col-6">
+            <div class="menu-nav">
+              <nav>
+                <ul class="menu">
+                  <li>
+                    <a id="item-home">
+                      <strong>Home</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a id="item-travel-planner">Travel Planner</a>
+                  </li>
+                  <li>
+                    <a id="item-blogs">Blogs</a>
+                  </li>
+                  <li>
+                    <a id="item-stories">Stories</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
