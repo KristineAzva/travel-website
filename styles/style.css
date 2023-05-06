@@ -12,7 +12,6 @@ body {
 }
 .row {
     display:flex;
-    flex-wrap: wrap;
 }
 .col { 
    width: 100%;
@@ -186,6 +185,7 @@ button {
     background-color: #FF9900;
     display: flex;
     justify-content: center;
+    padding: 43px;
 }
 #search-input { 
     background-color: white;
@@ -216,13 +216,14 @@ footer {
     display: flex;
     justify-content: space-between;
     height:801px;
-    background: linear-gradient(180deg, rgba(255,153,0) 100%, rgba(0,0,0,0.8) 50%);
+    background: linear-gradient(180deg, rgba(255,153,0) 5%, rgba(0,0,0,0.8) 100%);
 }
 #hero-heading {
     padding-left: 100px;
 }
 #wonderful{ 
     margin-top: 394px;
+    color: #FF9900;
 }
 #value-item1 {
     padding-top:56px;
@@ -254,4 +255,29 @@ h2 {
 }
 #final-word-section {
     margin-bottom: 200px;
+}
+/* #destination { 
+    padding-left: 100px;
+} */
+label { 
+    margin-bottom: 13px;
+}
+.row-2 { 
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #444444;
+}
+.category { 
+    padding-bottom: 13px; 
+}
+.row-search-input {
+    display:flex;
+    padding-right: 14px;
+}
+.row-3 { 
+    display: flex;
+}
+.date-flex { 
+    display:flex;
+    justify-content: space-between;
 }
