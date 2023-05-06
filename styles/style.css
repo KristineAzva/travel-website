@@ -125,12 +125,10 @@ button {
 .p-30 {
     padding: 30px;
 }
-
 #gallery-cards {
     display: flex;
     gap: 30px;
 }
-
 #gallery-cards > div {
     flex: 1;
 }
@@ -165,9 +163,7 @@ button {
 #exciting-trip-img {
     margin-top: 80px;
 }
-
 /* ATE CLYDE */
-
 .content { 
     text-align: center;
 }
